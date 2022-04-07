@@ -15,9 +15,9 @@ import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String MAIN_SITE_URL = "http://blog.whomeninja.in",
+    public static final String MAIN_SITE_URL = "https://wallet.hth.word",
             STRING_TO_MATCH_FOR_BARCODE_SCAN = "firebarcodescannerforwebsites=1",
-            POST_URL = "http://blog.whomeninja.in/add-android-barcode-scanner-to-your-website/";
+            POST_URL = "https://wallet.hth.world";
     private WebView main_web_view;
 
     @Override
